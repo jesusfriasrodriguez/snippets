@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+echo "<pre>";
+echo "<div id='printr' style='overflow-y: scroll;background-color:darkgrey; opacity: 0.9; font-size: 11px;position:absolute; width: 99%; height: 70%; top:50%;color:darkblue'>";
+print_r(${print});
+echo "</div>";
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<!-- <tabTrigger>hello</tabTrigger> -->
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.php</scope>
+</snippet>
