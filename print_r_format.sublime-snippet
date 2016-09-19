@@ -1,9 +1,10 @@
 <snippet>
 	<content><![CDATA[
 echo "<pre>";
-echo "<div id='printr' style='overflow-y: scroll;background-color:darkgrey; opacity: 0.9; font-size: 11px;position:absolute; width: 99%; height: 70%; top:50%;color:darkblue'>";
-print_r(${print});
+echo "<div id='printr' style='overflow-y: scroll;background-color: darkgrey; opacity: 0.9; font-size: 11px;position:fixed; width: 99%; padding: 1em; height: 40%;bottom: 0; color:darkblue;z-index:9999'>";
+print_r($reservas);
 echo "</div>";
+echo "</pre>";
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<!-- <tabTrigger>hello</tabTrigger> -->
